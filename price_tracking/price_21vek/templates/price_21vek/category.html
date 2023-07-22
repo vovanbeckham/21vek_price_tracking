@@ -1,0 +1,16 @@
+{% extends 'price_21vek/base.html' %}
+ 
+{% block content %}
+<h1>{{title}}</h1>
+Категории
+
+
+{% for categ in categoryes %}
+         {% if not forloop.last %}
+                            <li><a href="/products/{{categ.slug}}">{{categ.name}}</a></li>
+         {% else %}
+                            <li class="last"><a href="/products/{{categ.slug}}">{{categ.name}}</a></li>
+         {% endif %}
+    {% endfor %}
+
+{% endblock %}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+         <title>{{title}}</title>
+</head>
+<body>
+<a href="/">Домой</a>
+{% for cat in catalog %}
+         {% if not forloop.last %}
+                            <li><a href="/{{cat.slug}}">{{cat.name}}</a></li>
+         {% else %}
+                            <li class="last"><a href="/{{cat.slug}}">{{cat.name}}</a></li>
+         {% endif %}
+    {% endfor %}
+
+{% block content %}
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,1 @@
+["\u041f\u043e\u043f\u043a\u043e\u0440\u043d\u0438\u0446\u044b", [{"name": "\u041f\u043e\u043f\u043a\u043e\u0440\u043d\u0438\u0446\u0430 Ariete 2956 (\u043a\u0440\u0430\u0441\u043d\u044b\u0439)", "url_img": "https://cdn21vek.by/img/gallery/default_preview.jpeg", "url_product": "https://www.21vek.by/popcorn/2956_ariete.html", "price": "116.49"}]]

@@ -1,0 +1,16 @@
+{% extends 'price_21vek/base.html' %}
+ 
+{% block content %}
+<h1>{{title}}</h1>
+Продукты
+
+
+{% for prod in products %}
+         {% if not forloop.last %}
+                            <li><a href="/products/{{prod.slug}}">{{prod.name}}</a></li>
+         {% else %}
+                            <li class="last"><a href="/products/{{prod.slug}}">{{prod.name}}</a></li>
+         {% endif %}
+    {% endfor %}
+
+{% endblock %}
